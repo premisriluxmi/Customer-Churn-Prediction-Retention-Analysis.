@@ -17,6 +17,18 @@ The project uses customer data to explore churn patterns and eventually develop 
 - Created visualizations to understand churn patterns, monthly charges, and customer tenure.
 - Saved the dataset for further analysis.
 
+## Day 2 – Data Cleaning and Preprocessing
+
+### Tasks Completed
+- Checked and handled missing values.
+- Converted TotalCharges into numeric format.
+- Checked and removed duplicate records.
+- Removed the customer ID column.
+- Encoded the target variable.
+- Performed categorical variable encoding.
+- Separated features and target.
+- Saved the preprocessed dataset.
+
 ## Technologies Used
 - Python
 - Pandas
@@ -30,19 +42,20 @@ The project uses customer data to explore churn patterns and eventually develop 
 The project uses a Telco Customer Churn dataset containing customer information, subscription details, services, charges, and churn status.
 
 ## Project Structure
-
 ```text
 Customer-Churn-Prediction/
 │
 ├── Customer_Churn_Prediction_Day1.ipynb
+├── Customer_Churn_Prediction_Day2.ipynb
 ├── customer_churn_dataset.csv.csv
 ├── customer_churn_day1.csv
+├── customer_churn_preprocessed.csv
 └── README.md
 ```
 
 ## Project Progress
-
--  Day 36 | Mini Project 2 – Day 1
+- Day 36 | Mini Project 2 – Day 1
+- Day 37 | Mini Project 2 – Day 2
 
 ## Objective
 The overall objective is to build a customer churn prediction system that helps identify potential churn customers and supports better customer retention strategies.
